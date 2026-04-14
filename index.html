@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio - KENPA ALPHA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">KENPA ALPHA</div>
+      <ul class="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#parcours">Parcours</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Accueil -->
+  <section id="accueil" class="section hero">
+    <div class="hero-content">
+      <h1>Salut, moi c'est KENPA TAKOUDJOU ALPHA</h1>
+      <p>Étudiant en 2e année de classe préparatoire cycle ingénieur informatique à l’IUC, passionné par le développement web et la cybersécurité.</p>
+      <a href="#projets" class="btn">Voir mes projets</a>
+    </div>
+  </section>
+
+  <!-- Compétences -->
+  <section id="competences" class="section">
+    <h2>Compétences</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Langage de programmation</h3>
+        <p>HTML, CSS, JavaScript (Maitrise intermédiaire).</p>
+      </div>
+      <div class="skill-card">
+        <h3>Outils</h3>
+        <p>PHP, Node.js (Maitrise intermédiaire).</p>
+      </div>
+      <div class="skill-card">
+        <h3>Outils complementaire</h3>
+        <p>Git, GitHub, VS Code, Intellij.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Autres</h3>
+        <p>Algorithmique, bases de données, travail en équipe.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projets -->
+  <section id="projets" class="section">
+    <h2>Projets</h2>
+    <div class="projects-grid">
+      <article class="project-card">
+        <h3>Application de gestion de stocks</h3>
+        <p>Application permettant de gérer les produits, les entrées/sorties et le stock disponible.</p>
+        <p><strong>Outillage :</strong> HTML, CSS, JS.</p>
+        <a href="#" target="_blank">Voir le code</a>
+      </article>
+
+      <article class="project-card">
+        <h3>Realisation d'une Todo list</h3>
+        <p>Une assistance logiciel nous permettant de mieux nous organiser et classer nos activités par priorités.</p>
+        <p><strong>Outillage :</strong>Vs code, Node.js, HTML, CSS.</p>
+        <a href="#" target="_blank">Voir le code</a>
+      </article>
+
+      <article class="project-card">
+        <h3>Formulaire d'Inscription</h3>
+        <p>Une page web servant de formulaire pouvant etre utiliser pour un site, une application, etc...</p>
+        <p><strong>Outillage :</strong>HTML, CSS</p>
+        <a href="#" target="_blank">Voir le code</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Parcours -->
+  <section id="parcours" class="section">
+    <h2>Formations & expériences</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>2ᵉ année classe préparatoire cycle ingénieur informatique</h3>
+        <p>Institut Universitaire de la Côte (IUC) - Douala.</p>
+        <p>Spécialisation en informatique / cybersécurité, Reseaux, Data et conception.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Baccalauréat (série D)</h3>
+        <p>COLLEGE ETOILE, Douala.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Projet Structurant le fin année 1</h3>
+        <p>Realisation d'une application de gestion de stocks pour les petites et grandes entreprises.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <form class="contact-form">
+      <div class="form-group">
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" required>
+      </div>
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 KENPA TAKOUDJOU ALPHA - Portfolio</p>
+  </footer>
+
+</body>
+</html>
